@@ -1,8 +1,6 @@
-MyManimAnimation is a repo that contains some small practice through [Manim](https://github.com/3b1b/manim), I decide to divide it by two parts, one is **tutorial** including notes and basic demonstration, and the other is some **changllanges** exploring every possibilities.
+MyManimAnimation is a repo that contains some small practice through [Manim](https://github.com/3b1b/manim), I decide to divide it by two parts, one is **tutorial** including notes and basic demonstration, and the other is some **changllanges** exploring every possibilities
 
 
-
-New line
 
 ### Content Here
 
