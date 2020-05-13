@@ -76,5 +76,5 @@ class ArcDemo(Scene):
 
 动画演示为
 
-![ArcDemo](.\img\ArcDemo.gif)
+![ArcDemo](./img/ArcDemo.gif)
 
