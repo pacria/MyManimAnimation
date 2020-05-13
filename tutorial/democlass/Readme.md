@@ -1,7 +1,6 @@
 # DemoClass
 
-
-`DemoClass`被设计用来创建一般演示的动画，使用`DemoClass`可以方便地对一个或几个属性值进行调控。目前`DemoClass`还有一些不足之处
+[`DemoClass`](https://github.com/pacria/MyManimAnimation/blob/master/tutorial/democlass/DemoClass.py)被设计用来创建一般演示的动画，使用`DemoClass`可以方便地对一个或几个属性值进行调控。目前`DemoClass`还有一些不足之处
 
 ### Example1| SquareDemo
 
@@ -44,7 +43,7 @@ self.play(AnimationGroup(
 
 整体运行的动画演示
 
-![SquareDemo](D:\Source\FunGif\SquareDemo.gif)
+![SquareDemo](./img/SquareDemo.gif)
 
 
 这就是使用`DemoClass`的最基本的工作流程了。由于是本人实现的，所以并不复杂，实际上是把一些演示时可能用到的公共部分封装起来了。下面这个例子——`ArcDemo`，展示了如何利用`DemoClass`创建多属性的同时控制过程
@@ -77,5 +76,5 @@ class ArcDemo(Scene):
 
 动画演示为
 
-![ArcDemo](D:\Source\FunGif\ArcDemo.gif)
+![ArcDemo](.\img\ArcDemo.gif)
 
