@@ -164,43 +164,11 @@ class DemoClass(VGroup):
             for attr_name, init_val, end_val in zip(self.attr_list, self.init_values, self.end_values))
         return output
 
-# Here is a simple test 
+
 class SquareDemo(Scene):
     def construct(self):
-        # Square().set_style
-        square = Square().set_style
-
-        square_demo = DemoGroup(cls_name=Square, 
-            attrs={"side_length": (2, 4)}, 
-            cls_attr={"color":RED},
-            text_attr={"color":BLUE}
-            )
-
-        group = square_demo.get_group()
-
-        play_ani = square_demo.get_end(run_time=2)
-
-        self.add(group)
-
-        self.play(
-            play_ani
-        )
-
-
-class ForTest(Scene):
-
-    def construct(self):
-        a = DemoClassA().test()
-
-        a = Text(a)
-
-        self.add(a)
-
-
-class SquareDemo2(Scene):
-    def construct(self):
         square = Square(side_length=2).set_fill(color=WHITE, opacity=.6).set_color_by_gradient([YELLOW_A, RED_B])
-        square_demo = DemoClassA(
+        square_demo = DemoClass(
             square,
             {"side_length":(1, 5)}
         )
@@ -218,7 +186,7 @@ class SquareDemo2(Scene):
 
 class ArcDemo(Scene):
     def construct(self):
-        arc = Arc(radius=2, angle=TAU/4, stroke_width=22).set_color_by_gradient([GOLD_D, RED_B, YELLOW_A, RED_D])
+        arc = Arc().set_color_by_gradient([GOLD_D, RED_B, YELLOW_A, RED_D])
         arc_demo = DemoClass(
             arc,
             { 
